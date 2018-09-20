@@ -1,0 +1,47 @@
+{
+  "name": "singe-page",
+  "description": "none",
+  "version": "1.0.0",
+  "author": "daxu",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot --config config/webpack.dev.config.js",
+    "test": "webpack --progress --hide-modules --config config/webpack.test.config.js",
+    "build": "webpack --progress --hide-modules --config config/webpack.prod.config.js"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "lib-flexible": "^0.3.2",
+    "vue": "^2.5.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "axios": "^0.18.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.1.6",
+    "postcss-px2rem": "^0.3.0",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
